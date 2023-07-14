@@ -45,6 +45,13 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+      
+    - name: Setup Java JDK
+      uses: actions/setup-java@v3.9.0
+      with:
+        # Java distribution. See the list of supported distributions in README file
+        distribution: zulu
+
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
