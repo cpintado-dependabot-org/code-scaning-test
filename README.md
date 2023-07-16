@@ -1,1 +1,1 @@
-# code-scaning-test
+# code-scanning-test
